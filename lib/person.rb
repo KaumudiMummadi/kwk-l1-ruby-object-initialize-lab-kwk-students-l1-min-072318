@@ -3,12 +3,16 @@ class Person
   def initalize(name)
     @name= name
   end 
-end 
-# def name= (name)
-#   @name=name
-# end 
 
-# def 
+
+  def name= (name)
+  @name=name
+end 
+
+def name 
+  @name 
+end 
+
 
 beyonce= Person.new("Beyonce")
   
