@@ -3,5 +3,7 @@ class Person
   def initalize(name)
     @name= name
   end 
-end 
+end
+
+beyonce= Person.new("Beyonce")
   
